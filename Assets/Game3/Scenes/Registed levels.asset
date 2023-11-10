@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32b05746290bb894a91e4631efb76af2, type: 3}
+  m_Name: Registed levels
+  m_EditorClassIdentifier: 
+  LevelList:
+  - Name: Broadcast
+    Image: {fileID: 21300000, guid: 0a103da8d1330df4494ab49e229f3733, type: 3}
+    Scene: Assets/Game3/Scenes/Room01_Broadcast.unity
+  - Name: Reserved1
+    Image: {fileID: 21300000, guid: 0a103da8d1330df4494ab49e229f3733, type: 3}
+    Scene: Assets/Game3/Scenes/Room02.unity
+  - Name: Reserved2
+    Image: {fileID: 21300000, guid: 0a103da8d1330df4494ab49e229f3733, type: 3}
+    Scene: Assets/Game3/Scenes/Room03.unity
+  - Name: Reserved3
+    Image: {fileID: 21300000, guid: 0a103da8d1330df4494ab49e229f3733, type: 3}
+    Scene: Assets/Game3/Scenes/Room04.unity
+  - Name: Reserved4
+    Image: {fileID: 21300000, guid: 0a103da8d1330df4494ab49e229f3733, type: 3}
+    Scene: Assets/Game3/Scenes/Room05.unity
+  - Name: Reserved5
+    Image: {fileID: 21300000, guid: 0a103da8d1330df4494ab49e229f3733, type: 3}
+    Scene: Assets/Game3/Scenes/Room06.unity

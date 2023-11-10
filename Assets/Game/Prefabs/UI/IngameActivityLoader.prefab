@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8577120107149547032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8577120107149547034}
+  - component: {fileID: 682592082085219036}
+  m_Layer: 0
+  m_Name: IngameActivityLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8577120107149547034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8577120107149547032}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &682592082085219036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8577120107149547032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bd65f9958e62b540a527a69f3ad5dcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StandaloneActivity: {fileID: 5813815269216361150, guid: c470331ed8795d34098fb14b570ad967, type: 3}
+  AndroidActivity: {fileID: 5813815269216361150, guid: d26e7b8e8b1f4be49972627c9b9d3178, type: 3}
+  WebGLActivity: {fileID: 5813815269216361150, guid: c470331ed8795d34098fb14b570ad967, type: 3}
+  UWPActivity: {fileID: 5813815269216361150, guid: c470331ed8795d34098fb14b570ad967, type: 3}
+  TVOSActivity: {fileID: 5813815269216361150, guid: c470331ed8795d34098fb14b570ad967, type: 3}
+  PS4Activity: {fileID: 5813815269216361150, guid: c470331ed8795d34098fb14b570ad967, type: 3}
+  iOSActivity: {fileID: 5813815269216361150, guid: d26e7b8e8b1f4be49972627c9b9d3178, type: 3}
+  XboxOneActivity: {fileID: 5813815269216361150, guid: c470331ed8795d34098fb14b570ad967, type: 3}

@@ -1,0 +1,3 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+Assets/Game3/Videos/twoen-page-4-sub-2.mp4 filter=lfs diff=lfs merge=lfs -text
